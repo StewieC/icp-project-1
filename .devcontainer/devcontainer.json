@@ -1,0 +1,11 @@
+{
+  "name": "IC/Web3 Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "dfx --version && node -v && rustc --version",
+  "remoteUser": "codespace"
+}
